@@ -1,4 +1,4 @@
-# Face Recognition App
+# Face Recognition App 👀
 
 This is a simple **Face Recognition App** built with **Python**, **OpenCV**, and **Streamlit**. The application uses Haarcascade classifiers to detect faces and eyes from an image or webcam feed.
 
@@ -59,11 +59,4 @@ face-recognition-app/
 
 ## Deployment
 The app is deployed on Streamlit Cloud and can be accessed [here](https://face-recognition-project.streamlit.app/).
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-- [OpenCV Documentation](https://docs.opencv.org/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
 
