@@ -68,13 +68,13 @@ def main():
 				result_img,result_faces=detect_faces(up_image)
 				st.image(result_img)
 				st.success("Found {} faces".format(len(result_faces)))
-			if feature_choice=="Eye":
+			if feature_choice=="Eyes":
 				result_img,result_faces=detect_eye(up_image)
 				st.image(result_img)
 				st.success("Found {} Eyes".format(len(result_faces)))
 			
 	elif choices=="About":
-		st.write("This Application is Developed Utkarsh Mishra")
+		st.write("This Application is Developed by Utkarsh Mishra")
 
 
 if __name__=='__main__':
