@@ -28,7 +28,7 @@ def detect_eye(up_image):
 
 
 def main():
-	st.title("Face Detection App")
+	st.title("Face Detection App for CyFuture")
 	st.write("Build with Streamlit And Opencv")
 	activites=["Detection","About"]
 	choices=st.sidebar.selectbox("Select Activities",activites)
@@ -74,7 +74,7 @@ def main():
 				st.success("Found {} Eyes".format(len(result_faces)))
 			
 	elif choices=="About":
-		st.write("This Application is Developed By Chando Dhar")
+		st.write("This Application is Developed Utkarsh Mishra")
 
 
 if __name__=='__main__':
