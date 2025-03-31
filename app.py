@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image, ImageEnhance
-import cv2
+import cv2 as cv2
 
 
 
